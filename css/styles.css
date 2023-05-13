@@ -1,0 +1,163 @@
+#title {
+  background-color: #ff4c68;
+  padding-bottom: 80px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* Headings */
+.title-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+/* Navigation bar */
+nav {
+  padding: 50px 0;
+}
+
+.navbar-brand {
+  font-size: 35px;
+  padding: 40px 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+
+/* Title Image */
+.dog-phone {
+  transform: rotate(25deg);
+  height: 40rem;
+  width: 20rem;
+  padding-top: 15px;
+  position: absolute;
+  right: 20%;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Features Section */
+#features {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.feature-icon {
+  color: #ef8172;
+  padding: 0 25% 0 25%;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* Testimonial Section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+.testimonial-text{
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-h2 {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* call to action section */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+  color: white;
+}
+
+.cta-text {
+  padding: 2%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* footer section */
+#footer {
+  text-align: center;
+  margin: 7% 15%;
+}
+
+.socials {
+  margin: 20px 10px;
+  padding: 20px;
+}
+
+/* makes title section responsive to smaller screen sizes */
+@media(max-width: 1028px) {
+  .dog-phone {
+    position: static;
+    transform: rotate(0);
+    padding-top: 40px;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
